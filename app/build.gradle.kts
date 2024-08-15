@@ -67,6 +67,7 @@ dependencies {
     //implementation("androidx.credentials:credentials:1.5.0-alpha04")
     implementation("androidx.lifecycle:lifecycle-livedata:2.8.4")
     implementation(libs.play.services.auth)
+    implementation(libs.androidx.datastore.core.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
